@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: My Site
+title: docs.webtool.app
+baseURL: https://docs.webtool.app
+languageCode: en-us
 
 # import hextra as module
 module:
@@ -18,39 +20,42 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: OCR 
+      pageRef: /ocr
       weight: 1
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
     - name: Search
-      weight: 4
+      weight: 3
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 4 
+      url: "https://github.com/socrabytes/webtool-docs"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
+  sidebar:
+    - name: Tools
+      params:
+        type: separator
+      weight: 1
+    - name: "ocr.webtool.app ↗"
+      url: "https://ocr.webtool.app"
+      weight: 2        
 params:
   navbar:
     displayTitle: true
     displayLogo: false
 
   footer:
-    displayCopyright: false
-    displayPoweredBy: true
+    displayCopyright: true
+    displayPoweredBy: false
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/socrabytes/webtool-docs/edit/main/content"
+
+  sidebar:
+    displaySectionTitle: true

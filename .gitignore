@@ -3,5 +3,8 @@ public/
 resources/
 .hugo_build.lock
 
+# Hugo Version Manager
+.hvm
+
 # Editor
 .vscode/

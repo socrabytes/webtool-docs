@@ -1,17 +1,22 @@
 ---
-title: My Site
+title: WebTool Docs
+cascade:
+  type: docs
 toc: false
 ---
 
-This is the landing page.
+Documentation for WebTool products and APIs.
 
-## Explore
+## Start here
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="ocr" title="OCR Documentation" icon="document-text" >}}
   {{< card link="about" title="About" icon="user" >}}
+  {{< card link="https://ocr.webtool.app" title="Open OCR App" icon="link" >}}
 {{< /cards >}}
 
-## Documentation
+## What you will find
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+- Guides for setup and usage
+- Product behavior, workflows, and examples
+- Tool-specific documentation for OCR and future WebTool products
