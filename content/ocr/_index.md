@@ -1,16 +1,19 @@
 ---
-title: OCR
+title: OCR Documentation
 weight: 1
+next: overview
 ---
 
-Documentation for the WebTool OCR application.
+Convert documents into structured Markdown using Mistral AI's Vision API.
 
-## What you'll find
+## Features
 
-- Getting started guides
-- Feature documentation
-- Troubleshooting tips
+- **📄 Universal Ingestion:** Process PDF, PPTX, DOCX, and images (up to 50MB)
+- **⚡ Batch Processing:** Upload multiple files and merge or keep separate
+- **🖼️ Image Extraction:** Extract embedded images with annotations
+- **📥 Multiple Downloads:** Single file, merged, or ZIP archive
 
 {{< cards >}}
-  {{< card link="getting-started" title="Getting Started" icon="book-open" >}}
+  {{< card link="overview" title="Overview" subtitle="Learn what OCR can do" icon="document-text" >}}
+  {{< card link="quickstart" title="Quickstart" subtitle="Get started in 5 minutes" icon="play" >}}
 {{< /cards >}}
